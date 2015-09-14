@@ -26,6 +26,7 @@
     background-image: url("static/img/body-bg.png");
 } 
 
+
 .theme-dropdown .dropdown-menu {
 	position: static;
 	display: block;
