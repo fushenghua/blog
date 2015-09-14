@@ -1,0 +1,81 @@
+/**
+2014��11��12��11:20:32
+**/
+.container{
+	width: 800px;
+}
+.page-header-top {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    margin: 0 0 30px;
+    padding: 20px 20px 10px;
+}
+.sign-in{
+	background: none repeat scroll 0 0 #fff;
+	border: 1px solid #ddd;
+    padding: 50px 20px 20px;
+    border-color: -moz-use-text-color #ddd #ddd;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    margin: 0;
+}
+.sign-up{
+	background: none repeat scroll 0 0 #fff;
+	border: 1px solid #ddd;
+    padding: 20px ;
+    border-color: -moz-use-text-color #ddd #ddd;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    margin: 0;
+}
+.login{
+ 			width: 500px;
+}
+.register{
+ 			width: 400px;
+}
+.login-head {
+    background: none repeat scroll 0 0 #f7f7f7;
+    border: 1px solid #ddd;
+    color: #444;
+    font-size: 22px;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 15px 30px;
+    width: auto;
+}
+.login-bottom {
+    background: none repeat scroll 0 0 #f7f7f7;
+    border: 1px solid #ddd;
+    border-style: none solid solid;
+    color: #444;
+    font-size: 22px;
+    letter-spacing: -1px;
+    margin: 0;
+    width: auto;
+    height:90px;
+}
+#loginBtn{
+	font-size: 15px;
+    line-height: normal;
+    padding: 8px 50px;
+    margin-left: 30px;
+    margin-top:20px;
+}
+.findPass{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 6px 0 0;
+}
+.form-control{
+	width: 230px;
+}
+.help-block {
+    color: #aaa;
+    font-size: 12px;
+}

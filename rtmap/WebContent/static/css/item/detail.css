@@ -1,0 +1,138 @@
+/*!
+ * 商品详情的css
+ * Copyright 2013 codingyun.
+ */
+
+body {
+	color: #555;
+	font-family: "Microsoft Yahei","微软雅黑","宋体";
+/*   font-family: Georgia, "Times New Roman", Times, serif; */
+/*   font-size: 12px; */
+}
+.page-header-top {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    margin: 0 0 30px;
+    padding: 20px 20px 10px;
+}
+.page-header-top h1 {
+	font-size: 22px;
+    float: left;
+    letter-spacing: -1px;
+    margin: 0 0 8px;
+    width: 660px;
+}
+.page-header-top h1 a {
+    color: #444;
+}
+.item-detail .item-right-sidebar {
+    font-size: 13px;
+}
+.buy-form .btn {
+    font-size: 32px;
+    padding: 10px 16px;
+}
+.buy-form span {
+    background: url("//d85wutc1n854v.cloudfront.net/live/imgs/buynow.png") no-repeat scroll right center transparent;
+    padding-right: 110px;
+}
+.item-detail .item-right-sidebar .coffee-pitch {
+    color: #4f2d16;
+    margin-top: 5px;
+    text-align: center;
+}
+.item-detail .item-right-sidebar .coffee-pitch span {
+    background: url("//d85wutc1n854v.cloudfront.net/live/imgs/coffee-bean.png") no-repeat scroll right center transparent;
+    margin: 0;
+    padding-right: 25px;
+}
+.item-detail .item-right-sidebar .purchase_info {
+    margin-bottom: 15px;
+    margin-top: 17px;
+    overflow: hidden;
+}
+.purchase_info .purchases .count {
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+}
+.purchase_info .purchases .count_label {
+    color: #555;
+    font-size: 11px;
+    line-height: 11px;
+    margin-top: 2px;
+    text-align: center;
+}
+.item-detail .item-right-sidebar .license {
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    height: 36px;
+    padding: 9px 0 0 7px;
+}
+.version-choose p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.version-choose p span {
+    float: right;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.version-choose .radio{
+    border-radius: 3px;
+    font-weight: bold;
+    margin-bottom: 2px;
+    padding: 4px 8px;
+}
+.version-choose .radio-selected {
+    background-color: #eee;
+    border-color: #e5e5e5 #fcfcfc #fcfcfc #e5e5e5;
+    border-style: solid;
+    border-width: 1px;
+}
+.version-choose .money {
+    float: right;
+}
+.item-attributes{
+	margin-top:20px;
+}
+.item-attributes .key{
+	width:25%;
+}
+.item-attributes .value{
+	width:75%;
+}
+.item-main{
+    background: url("//d85wutc1n854v.cloudfront.net/live/imgs/darkgrain.png") repeat scroll 0 0 #eee;
+    border-radius: 6px;
+    margin: 0 50px 10px 0;
+    overflow: hidden;
+    padding: 18px;
+}
+
+.item-main .inner {
+    background: url("//d85wutc1n854v.cloudfront.net/live/imgs/content_inner_bg.png") repeat scroll 0 0 #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    box-shadow: 0 0 3px #ddd;
+    display: block;
+    padding: 8px;
+}
+.item-main .inner .screeShot{
+    padding: 20px;
+}
+.followMe h2 {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404040;
+    font-weight: bold;
+}
+.item-main .followMe{
+	margin-top:30px;
+}
