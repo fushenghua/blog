@@ -1,5 +1,10 @@
-# rtmap_blog
+ rtmap_blog
+================
+
 rtmap_blog-v1.0
+* 内部学习技术Blog
+* 移动技术周报
+* 分享、交流
 
 rtmap_blog-v1.0 内部开源简单博客系统
 
