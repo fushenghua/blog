@@ -49,7 +49,7 @@ body {
 		<img src="img/thumb_IMG_0045_1024.jpg" class="img-circle"
 			width="200px" height="200px">
 		<h3>
-			RTMAP_DEPARTMENT<span class="label label-info">RTMAP_DEPARTMENT</span>
+			RTMAP_DEPARTMENT<span class="label label-info">v1.0</span>
 		</h3>
 		<br/>
 		<div>

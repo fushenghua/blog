@@ -19,10 +19,12 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.zclip.min.js"></script>
 <style>
-/* body {
-	padding-top: 60px;
-	padding-bottom: 30px;
-} */
+ body {
+	font-family: Helvetica, sans-serif;
+    line-height: 1.6;
+    font-weight: 300;
+    background-image: url("static/img/body-bg.png");
+} 
 
 .theme-dropdown .dropdown-menu {
 	position: static;
@@ -84,14 +86,14 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#1">RTMAP_ANDROID</a>
+			<a class="navbar-brand" href="#1">RTMAP_Blog</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav" id="navID">
 				<li><a href="#1">Home</a></li>
-				<li><a href="${pageContext.request.contextPath}/blog#7">Blog
+				<li><a href="${pageContext.request.contextPath}/blog#2">Blog
 				</a></li>
-				<li><a href="${pageContext.request.contextPath}/about#10">
+				<li><a href="${pageContext.request.contextPath}/about#3">
 						About </a></li>
 			</ul>
 

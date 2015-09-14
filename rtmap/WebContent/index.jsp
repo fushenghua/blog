@@ -9,48 +9,6 @@
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-<%-- <head>
-<base href="<%=basePath%>">
-
-<title>RTMAP_ANDROID</title>
-
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/bootstrap-theme.css" rel="stylesheet">
-
-<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-<link href="lib/codemirror.css" rel="stylesheet">
-<script type="text/javascript" src="lib/codemirror.js"></script>
-<script type="text/javascript" src="lib/xml.js"></script>
-<script type="text/javascript" src="js/jquery.zclip.min.js"></script>
-
-<style>
-body {
-	padding-top: 70px;
-	padding-bottom: 30px;
-}
-
-.theme-dropdown .dropdown-menu {
-	position: static;
-	display: block;
-	margin-bottom: 20px;
-}
-
-.theme-showcase>p>.btn {
-	margin: 5px 0;
-}
-
-.theme-showcase .navbar .container {
-	width: auto;
-}
-
-.center {
-	width: auto;
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
-}
-</style>
-</head> --%>
 <style>
 body {
 	height: 100%;
@@ -75,46 +33,14 @@ body {
 <body>
 	<jsp:include page="common/head.jsp" />
 	<div class="container-fluid" role="main">
-		<!-- <div class="container">
-			<div class="container-fluid"> -->
-		<!-- 				<div class="blog-header">
-					<h1 class="blog-title">RTMAP ANDROID</h1>
-				</div>
- -->
-		<!-- 	<div class="row-fluid">
-					<div class="col-md-6">
-						<legend>LayoutXML</legend>
-						<article>
-						<textarea rows="16" cols="80" name="name" id="contentXml"
-							placeholder="请在这里粘贴布局XML" class="form-control"></textarea></article>
-						<p></p>
-						<input type="button" value="生成" id="btnSubmit"
-							class="btn btn-primary btn-success" /> <input type="button"
-							value="清空" class="btn btn-info " id="btnClear" />
-					</div>
-					<div class="col-md-6">
-						<legend>Java Code</legend>
-						<form action="user/layout" method="post">
-							<textarea rows="16" cols="80" name="name" placeholder="从这里复制代码"
-								id="javacode" class="form-control"></textarea>
-							<p></p>
-							<input type="button" value="复制" class="btn btn-primary "
-								id="btnCopy" />
-						</form>
-					</div>
-				</div>
-			</div> -->
-		<!-- 		</div>
-		</div>
-		-->
 	</div>
 	<div class="site-wrapper">
 		<div class="site-wrapper-inner">
 			<div class="cover-container">
 				<div class="inner cover">
-					<h1 class="cover-heading">RTMAP ANDROID Page.</h1>
+					<h1 class="cover-heading">RTMAP Blog Page.</h1>
 					<p class="lead">Coding/></p>
-					<p>让开发更简单</p>
+					<p>让开发更简单……</p>
 					<p class="lead">
 						<a href="blog#7" class="btn btn-info btn-default">Go Bolg</a>
 					</p>
