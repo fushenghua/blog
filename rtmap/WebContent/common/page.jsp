@@ -10,17 +10,17 @@
 	<ul class="pagination" style="float: right;margin: 8px 30px;">
 	
 		<c:if test="${pageInfo.pageCount <= 1 }">  
-			<li class="disabled"><a href="#">上一页</a></li>
-			<li class="active"><a href="#">1</a></li>
-			<li class="disabled"><a href="#">下一页</a></li>
+			<li class="disabled"><a href="javascript:void(0)">上一页</a></li>
+			<li class="active"><a href="javascript:void(0)">1</a></li>
+			<li class="disabled"><a href="javascript:void(0)">下一页</a></li>
 		</c:if>
 		<c:if test="${pageInfo.pageCount >1 }">   
 		
 			<c:if test="${pageInfo.pageNo == 1 }"> 
-				<li class="disabled"><a href="#" onclick="return previous()">上一页</a></li>
+				<li class="disabled"><a href="javascript:void(0)" onclick="return previous()">上一页</a></li>
 			</c:if>
 			<c:if test="${pageInfo.pageNo > 1 }"> 
-				<li><a href="#" onclick="return previous()">上一页</a></li>
+				<li><a href="javascript:void(0)" onclick="return previous()">上一页</a></li>
 			</c:if>
 		
 			<c:set var="pageStart" value="1" />
@@ -39,18 +39,18 @@
 			
 			<c:forEach var ="iNum" begin="${pageStart}" end="${pageStop}" step="1">
 		  		<c:if test="${pageInfo.pageNo != iNum}">
-		  			<li><a href="#" onclick="return jumpPage(${iNum})">${iNum}</a></li>
+		  			<li><a href="javascript:void(0)" onclick="return jumpPage(${iNum})">${iNum}</a></li>
 		  		</c:if>
 		  		<c:if test="${pageInfo.pageNo == iNum}">
-					<li class="active"><a href="#">${iNum}</a></li>
+					<li class="active"><a href="">${iNum}</a></li>
 		  		</c:if>
 		    </c:forEach>
 		    
 		    <c:if test="${pageInfo.pageNo >= pageInfo.pageCount }">   
-		    	<li class="disabled"><a href="#" onclick="return false;">下一页</a></li>
+		    	<li class="disabled"><a href="javascript:void(0)" onclick="return false;">下一页</a></li>
 		    </c:if>
 			<c:if test="${pageInfo.pageNo < pageInfo.pageCount }"> 
-				<li><a href="#" onclick="return next()">下一页</a></li>
+				<li><a href="javascript:void(0)" onclick="return next()">下一页</a></li>
 			</c:if>
 		</c:if>
 	</ul>

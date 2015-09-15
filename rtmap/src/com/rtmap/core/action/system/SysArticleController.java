@@ -63,7 +63,7 @@ public class SysArticleController extends BaseController {
 	public Object addArticle(HttpServletRequest request, BlogArticleBo article){
 		logger.info("addArticle info:" + article.toString());
 		boolean flag = false;
-		String errorMessage = "新增文章成功!";
+		String errorMessage = "Success！";
 		try{
 			flag = blogArticleService.addArticle(article);
 		}catch (ServiceException serviceE){
@@ -71,12 +71,12 @@ public class SysArticleController extends BaseController {
 			errorMessage = serviceE.getMessage();
 		}catch (Exception e){
 			logger.error("addArticle failed!" , e);
-			errorMessage = "新增文章失败!";
+			errorMessage = "failed！";
 		}
 		if(flag){
-			return "<script>window.parent.addArticle('" + errorMessage + "');</script>";
+			return "<script  type='text/javascript' charset='utf-8'>window.parent.addArticle('" + errorMessage + "');</script>";
 		}
-		return "<script>window.parent.savCourseFailed('" + errorMessage + "');</script>";
+		return "<script type='text/javascript' charset='utf-8'>window.parent.savCourseFailed('" + errorMessage + "');</script>";
 	}
 	
 	/**
@@ -89,7 +89,7 @@ public class SysArticleController extends BaseController {
 	public Object updateArticle(HttpServletRequest request, BlogArticleBo article){
 		logger.info("updateArticle info:" + article.toString());
 		boolean flag = false;
-		String errorMessage = "修改文章成功!";
+		String errorMessage = "update Success!";
 		try{
 			flag = blogArticleService.updateArticle(article);
 		}catch (ServiceException serviceE){
@@ -97,12 +97,12 @@ public class SysArticleController extends BaseController {
 			errorMessage = serviceE.getMessage();
 		}catch (Exception e){
 			logger.error("updateArticle failed!" , e);
-			errorMessage = "修改文章失败!";
+			errorMessage = "update Success!";
 		}
 		if(flag){
-			return "<script>window.parent.addArticle('" + errorMessage + "');</script>";
+			return "<script type='text/javascript' charset='utf-8'>window.parent.addArticle('" + errorMessage + "');</script>";
 		}
-		return "<script>window.parent.savCourseFailed('" + errorMessage + "');</script>";
+		return "<script type='text/javascript' charset='utf-8'>window.parent.savCourseFailed('" + errorMessage + "');</script>";
 	}
 	
 	/**

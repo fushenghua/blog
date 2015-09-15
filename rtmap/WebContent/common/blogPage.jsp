@@ -26,7 +26,7 @@
 		</c:if>
 	
 	    <c:if test="${pageInfo.pageNo >= pageInfo.pageCount }">   
-	    	<li class="disabled"><a href="#" onclick="return false;">下一页</a></li>
+	    	<li class="disabled"><a href="javascript:void(0)" onclick="return false;">下一页</a></li>
 	    </c:if>
 		<c:if test="${pageInfo.pageNo < pageInfo.pageCount }"> 
 			<li><a href=" javascript:void(0)" onclick="return next()">下一页</a></li>

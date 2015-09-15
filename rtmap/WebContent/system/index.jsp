@@ -23,7 +23,9 @@
 <link
 	href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css"
 	rel="stylesheet">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
 <!-- 我们自己的css样式文件放在这里 -->
+
 <link href="${baseUrlStatic}/loginCss/adminia.css" rel="stylesheet">
 <link href="${baseUrlStatic}/loginCss/adminia-responsive.css"
 	rel="stylesheet">

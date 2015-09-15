@@ -144,8 +144,6 @@ body {
 			</div>
 		</div>
 	</div>
-
-	<%-- <jsp:include page="/WEB-INF/jsp/android/nfooter.jsp" /> --%>
 </body>
 <script type="text/javascript">
 

@@ -17,11 +17,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="jack">
 <link rel="shortcut icon" href="${baseUrlStatic}/icon/favicon.png">
-<title>RTMAP Blog </title>
+<title>RTMAP Blog</title>
 <!-- Bootstrap core CSS -->
 <link
 	href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css"
 	rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 <!-- 我们自己的css样式文件放在这里 -->
 <%--     <link href="${baseUrlStatic}/css/system/dashboard.css" rel="stylesheet"> --%>
 <link href="${baseUrlStatic}/loginCss/adminia.css" rel="stylesheet">
@@ -65,7 +66,8 @@ textarea {
 			<!-- /widget-header -->
 			<div class="widget-content">
 				<ul id="contentUl" class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active firstLi"><a href="#">文章列表</a></li>
+					<li role="presentation" class="active firstLi"><a
+						href="javascript:void(0)">文章列表</a></li>
 					<li id="new_article_tab" role="presentation"
 						class="new_article_tab"><a href="#">新增文章</a></li>
 					<li id="update_article_tab" role="presentation"
@@ -80,7 +82,7 @@ textarea {
 								class="icon-plus-sign-alt"></i> 新增文章</span>
 						</button>
 					</div>
-					<form id="courseListForm" action="/system/article">
+					<form id="courseListForm" action="./system/article">
 						<div class="table-responsive">
 							<table class="table table-striped table-hover">
 								<thead>
